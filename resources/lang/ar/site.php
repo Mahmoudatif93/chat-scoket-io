@@ -1,0 +1,75 @@
+<?php
+
+return [
+
+
+  'dashboard'=> 'الرئسيه',
+  'site_name'=> 'مفقود',
+  'users'=> 'المستخدمين',
+  'reports'=> 'التقارير',
+  'employees'=> 'الموظفين',
+  'add_user'=> 'اضف مستخدم',
+   'add_emps'=> 'اضافة موظف',
+   'create_user_emps'=> 'اضافة موظف كمستخدم',
+   'edit_user_emps'=> 'تعديل موظف كمستخدم',
+   'user_emps'=> ' موظف كمستخدم',
+   'permissions'=> ' الصلاحيات',
+   'email' => 'البريد الالكترونى',
+   'add' => 'اضف',
+    'create' => 'اضافه',
+    'read' => 'عرض',
+    'edit' => 'تعديل',
+    'update' => 'تعديل',
+    'delete' => 'حذف',
+    'search' => 'بحث',
+    'show' => 'عرض',
+    'confirm_edit'                     => 'هل انت متاكد من الحذف',
+    'yes'                     => 'نعم',
+    'no'                     => 'لا',
+    'delete'                     => 'حذف',
+    'ex_colvis'                     => 'اخفاء عمود',
+    'ex_excel'                     => 'تصدير ك Excel',
+    'ex_csv'                       => 'تصدير ك CSV',
+    'ex_copy'                       => 'نسخ',
+    'ex_pdf'                       => 'تصدير ك PDF',
+    'all_record'                   => 'كل السجلات',
+    'sProcessing'                  => 'تحميل',
+    'sLengthMenu'                  => 'اظهار _MENU_ سجل',
+    'sZeroRecords'                 => 'صفر سجل',
+    'sEmptyTable'                  => 'جدول خالى',
+    'sInfo'                        => 'اظهار _START_ الى  _END_ من _TOTAL_ سجل',
+    'sInfoEmpty'                   => 'معلومات خالية',
+    'sInfoFiltered'                => 'معلومات منتقاه',
+    'sInfoPostFix'                 => '',
+    'sSearch'                      => 'بحث',
+    'sUrl'                         => '',
+    'sInfoThousands'               => '',
+    'sLoadingRecords'              => 'تحميل السجلات',
+    'sFirst'                       => 'الاول',
+    'sLast'                        => 'الاخير',
+    'sNext'                        => 'التالى',
+    'sPrevious'                    => 'السابق',
+    'sSortAscending'               => 'ترتيب بحسب الاقدم',
+    'sSortDescending'              => 'ترتيب بحسب الاحدث',
+    'edit'                         => 'تعديل',
+    'add'                          => 'إضافة',
+    'name'                          => 'الاسم',
+    'countries'                       => 'المحافظات والمدن',
+    'control'                       => 'لوحة التحكم',
+    'create_country'                       => 'اضف مدينة او محافظة',
+
+
+    'stores'                       => ' المتاجر',
+    'create_store'                       => 'اضف متجر',
+    'mobile'                       => 'الموبيل',
+    'address'                       => ' العنوان',
+    'logo'                          =>'صوره مميزة للدعاية',
+    'choose_country'                 =>'المحافظه',
+    'choose_city'                 =>'المدينه',
+
+];
+
+
+
+
+?>

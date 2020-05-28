@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e4ab2cbb-e87e-4f9d-875f-beeb718e0980" name="mafqoud_online" url="http://193.160.66.24">
+        <fileTransfer host="193.160.66.24" port="21" rootFolder="/domains/menustations.com/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

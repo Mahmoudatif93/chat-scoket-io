@@ -1,0 +1,45 @@
+.main-header .navbar {
+	background-color: #504E57;
+	border-bottom: 1px solid #504E57;
+}
+.main-sidebar{
+	background-color: #918F9E;
+}
+.main-header .logo{
+	background-color: #918F9E;
+	border-bottom: 2px solid #918F9E
+}
+.main-footer {
+	background: #B2AFC2;
+}
+.header-login span {
+    color: #85bfe6;
+}
+
+
+.sidebar-collapse .sidebar .sidebar-menu li a span {
+    background-color: #918F9E !important;
+}
+.sidebar-menu > li > a:hover > i{
+	color: #000;
+}
+.treeview-menu .heading{
+	    background-color: #918F9E;
+
+}
+.content-wrapper{
+	background: url("../../img/boxed-bg.jpg") repeat;
+}
+.content{
+	background: transparent;
+}
+
+
+.box_icon{
+	background-color: #9084b8;
+}
+.inner-side .r-h4 {
+
+	background-color: #9084b8;
+	border: 2px solid #9084b8;
+}

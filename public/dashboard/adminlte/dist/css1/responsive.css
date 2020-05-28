@@ -1,0 +1,207 @@
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+h1{font-size: 20px;}h2{font-size: 19px;}h3{font-size: 17px;}
+h4{font-size: 16px;}h5{font-size: 15px;}h6{font-size: 14px;}
+p{font-size: 12px;}
+a{font-size: 12px;text-decoration: none;}
+.navbar-default .navbar-nav .tbra{
+width: 35%;
+    text-align: center;
+}
+#carousel-example-2 .carousel-inner{
+	    height: 430px;
+}
+#carousel-example-2 .carousel-inner img{
+    height: 400px;
+}
+#carousel-example-2 .carousel-indicators{
+	bottom: 60px;
+}
+.bo-buttons{
+    
+}
+.middle .forma{
+	padding-bottom: 30px;
+}
+.dropdown-content {
+    display: none;
+    }
+
+    .navbar-minimal.open > .navbar-menu{
+    	width: 330px;
+    }
+    
+    /***************************/
+    .sub_sub_icons  .box_icon{
+        width: 30%;
+        margin-right: 6px;
+    margin-left: 2px;
+    }
+    
+    .r-input{
+        width: 100%;
+    }
+    .inner-side.r-data .col-xs-3, 
+    .inner-side.r-data .col-xs-4, 
+    .inner-side.r-data .col-sm-3, 
+    .inner-side.r-data .col-sm-4,
+    .inner-side.r-data .col-sm-6 
+    {
+        width: 100%;
+    }
+    .inner-side{ 
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .middle-navbar{
+        margin-bottom:0;
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px){
+h1{font-size: 22px;}h2{font-size: 21px;}h3{font-size: 20px;}
+h4{font-size: 18px;}h5{font-size: 16px;}h6{font-size: 15px;}
+p{font-size: 12px;}
+a{font-size: 12px;text-decoration: none;}
+.dropdown-content {
+    display: none;
+    }
+    #carousel-example-2 .carousel-inner {
+    height: 590px;
+}
+.forma {
+    padding-bottom: 30px;
+}
+.sub_sub_icons  .box_icon{
+        width: 40%;
+        margin-right: 10px;
+    margin-left: 10px;
+    }
+    .middle-navbar ul li a{
+        line-height: 1.9;
+    }
+    .content-header{
+        padding: 5px 0px;
+    }
+    .content-header .col-xs-12{
+        padding: 0;
+    }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+h1{font-size: 22px;}h2{font-size: 21px;}h3{font-size: 20px;}
+h4{font-size: 18px;}h5{font-size: 16px;}h6{font-size: 15px;}
+p{font-size: 12px;}
+a{font-size: 12px;text-decoration: none;}
+.dropdown-content {
+    display: none;
+    }
+    #carousel-example-2 .carousel-inner {
+    height: 590px;
+}
+.forma {
+    padding-bottom: 30px;
+}
+}
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+@media print {
+
+}
+
+
+@media (max-width: 992px) {
+#login-page .holding-man{
+    display: none;
+}
+#login-page .bottom-man{
+     display: none;
+}
+}
+
+
+@media (max-width: 767px) {
+.main-header .logo{
+    display:none;
+    border-bottom: 1px solid #0c0b0c;
+        height: 54px;
+        padding:0 2px;
+}
+.header-login{
+    margin-right:0;
+}
+li.dropdown-user a{
+    padding: 0 3px;
+}
+.main-header .navbar{
+    min-height: 50px;
+    }
+    .navbar-custom-menu .navbar-nav > li > a{
+        padding-top:8px;
+        padding-bottom: 2px;
+        
+    }
+.navbar-nav>li>a{
+    line-height: 5px;
+}
+.navbar-nav > li > a > i{
+        padding: 12px 0 0 0;
+}
+.header-login span, .header-login p {
+
+    font-size: 11px;
+    font-weight: 600;
+    }
+    
+    .lobipanel>.panel-heading .dropdown .dropdown-menu{
+        left:0;
+        right:auto;
+    }
+    #addSearchInputs{
+        display:none;
+    }
+    .middle-navbar ul li{
+        margin-bottom: 5px;
+    }
+    .r-cont {
+        margin-top:15px;
+        }
+        .content{
+            overflow: visible;
+        }
+        .main-header .sidebar-toggle{
+            color:#fff;
+        }
+           .main-header .sidebar-toggle:hover,
+           .main-header .sidebar-toggle:focus
+           {
+            color:#000;
+            }
+            
+            .padd {
+    display: inline-block !important;
+    padding: 0 !important;
+}
+.form-group {
+    display: inline-block;
+
+    padding: 0px 2px;
+    margin-bottom: 5px;
+}
+#login-page .container-center {
+    margin: 5% 0% 0;
+    padding: 0;
+}
+.form-group { width: 100%;}
+#login-page{
+ background-image: none;   
+}
+}
+

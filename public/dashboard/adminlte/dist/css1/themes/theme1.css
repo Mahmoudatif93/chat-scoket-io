@@ -1,0 +1,37 @@
+.main-header .navbar {
+	background-color: #06ba9b;
+	border-bottom: 1px solid #0dd396;
+}
+.main-sidebar{
+	background-color: #054035;
+}
+.main-header .logo{
+	background-color: #054035;
+	border-bottom: 2px solid #054035
+}
+.main-footer {
+	background: #7ed9a5;
+}
+.header-login span {
+	color: #054035;
+}
+
+
+.sidebar-collapse .sidebar .sidebar-menu li a span {
+    background-color: #054035 !important;
+}
+.sidebar-menu > li > a:hover > i{
+	color: #000;
+}
+.treeview-menu .heading{
+	    background-color: #054035;
+
+}
+
+.box_icon{
+	background-color: #12594c;
+}
+.inner-side .r-h4 {
+	background-color: #0bc4a2;
+	border: 2px solid #0bc4a2;
+}

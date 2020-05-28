@@ -1,0 +1,46 @@
+.main-header .navbar {
+	background-color: #003B46;
+	border-bottom: 1px solid #003B46;
+}
+.main-sidebar{
+	background-color: #07575B;
+}
+.main-header .logo{
+	background-color: #07575B;
+	border-bottom: 2px solid #07575B
+}
+.main-footer {
+	background: #F2EDE4;
+}
+.header-login span {
+	color: #07575B;
+}
+
+.sidebar-collapse .sidebar .sidebar-menu li a span {
+    background-color: #07575B !important;
+}
+.sidebar-menu > li > a:hover > i{
+	color: #000;
+}
+.treeview-menu .heading{
+	    background-color: #07575B;
+
+}
+.content-wrapper{
+
+	background: #C4DFE6;
+
+	/*background: url("../../img/sort_both.png") repeat;*/
+}
+.content{
+	background: transparent;
+}
+
+.box_icon{
+	background-color: #003b46;
+}
+.inner-side .r-h4 {
+
+	background-color: #003b46;
+	border: 2px solid #003b46;
+}

@@ -1,0 +1,49 @@
+.main-header .navbar {
+    background-color: #0A1827;
+    border-bottom: 1px solid #0A1827;
+
+}
+.main-sidebar{
+	background-color: #5B9496;
+}
+.main-header .logo{
+	background-color: #5B9496;
+	border-bottom: 2px solid #08446d
+}
+.main-footer {
+	background: #afafaf;
+}
+.header-login span {
+    color: #8ad5dd;
+}
+
+.sidebar-collapse .sidebar .sidebar-menu li a span {
+    background-color: #5B9496 !important;
+}
+.treeview-menu .heading{
+	    background-color: #5B9496;
+
+}
+
+.sidebar-menu > li > a:hover > i{
+	color: #000;
+}
+
+.content-wrapper{
+		background: #CCD9CE;
+
+	/*background: url("../../img/sort_both.png") repeat;*/
+}
+.content{
+	background: #fff;
+}
+
+
+.box_icon{
+	background-color: #5b9496;
+}
+.inner-side .r-h4 {
+
+	background-color: #395676;
+	border: 2px solid #395676;
+}

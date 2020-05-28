@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="mafqoud_online">
+    <serverData>
+      <paths name="mafqoud_online">
+        <serverdata>
+          <mappings>
+            <mapping deploy="http://missing2.menustations.com/" local="$PROJECT_DIR$" web="/http://missing2.menustations.com/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

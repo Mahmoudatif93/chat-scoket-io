@@ -1,0 +1,153 @@
+
+/*********************************************
+ * Hijri - Gregorian Date Picker             *
+ *                                           *
+ * Design by ZulNs @Yogyakarta, January 2016 *
+ *********************************************/
+
+.calendar-pop {
+	position: absolute;
+	z-index: 9;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	width: 280px;
+	cursor: default;
+	background: #eef;
+	background: -webkit-linear-gradient(#eff,#fef,#ffe);
+	background: -moz-linear-gradient(#eff,#fef,#ffe);
+	background: -o-linear-gradient(#eff,#fef,#ffe);
+	background: linear-gradient(#eff,#fef,#ffe);
+	-moz-box-shadow: 0 4px 8px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 4px 8px rgba(0,0,0,.5);
+	box-shadow: 0 4px 8px rgba(0,0,0,.5);
+}
+.calendar-pop .header-button,
+.calendar-pop .setting-button,
+.calendar-pop .weekday-row div,
+.calendar-pop .date-grid div {
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.calendar-pop .weekday-row div,
+.calendar-pop .date-grid div {
+	vertical-align: middle;
+}
+.calendar-pop .header-row *,
+.calendar-pop .setting-button,
+.calendar-pop .date-grid .normal-date {
+	cursor: pointer;
+}
+.calendar-pop .header-row,
+.calendar-pop .month-field,
+.calendar-pop .year-field {
+	color: #fff;
+	background: #259;
+}
+.calendar-pop .setting-row {
+	color: #fff;
+	background: #2b7;
+}
+.calendar-pop .header-button:active,
+.calendar-pop .header-button.active:active {
+	color: #259;
+	background: #ccf;
+}
+.calendar-pop .header-button.active {
+	color: #fff;
+	background: #47b;
+}
+.calendar-pop .setting-button:active,
+.calendar-pop .setting-button.active:active {
+	color: #2b7;
+	background: #cfc;
+}
+.calendar-pop .setting-button.active {
+	color: #fff;
+	background: #4d9;
+}
+.calendar-pop .setting-button.disabled {
+	color: #777;
+	background: #1a6;
+	pointer-events: none;
+}
+.calendar-pop .month-field,
+.calendar-pop .year-field {
+	border: 0;
+	outline: 0;
+	padding: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	text-align: center;
+	text-align-last: center;
+}
+.calendar-pop .month-field {
+	width: 96px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	overflow: hidden;
+}
+.calendar-pop .month-field::-ms-expand {
+	display: none;
+}
+.calendar-pop .year-field {
+	width: 40px;
+}
+.calendar-pop .header-button {
+	width: 16px;
+}
+.calendar-pop .setting-button {
+	width: 40px;
+}
+.calendar-pop .weekday-row div,
+.calendar-pop .date-grid .excluded-date {
+	width: 40px;
+}
+.calendar-pop .date-grid .normal-date {
+	width: 30px;
+	height: 24px;
+	line-height: 24px;
+	margin: 3px 5px;
+}
+.calendar-pop .normal-date {
+	color: #555;
+}
+.calendar-pop .friday-date {
+	color: #292;
+}
+.calendar-pop .sunday-date {
+	color: #c22;
+}
+.calendar-pop .date-grid .excluded-date {
+	font-size: .9em;
+	color: #aaa;
+}
+.calendar-pop .date-grid .normal-date:active {
+	color: #fff;
+	background: #939;
+	-moz-box-shadow: 0 0 1px #000;
+	-webkit-box-shadow: 0 0 1px #000;
+	box-shadow: 0 0 1px #000;
+}
+.calendar-pop .date-grid .current-date,
+.calendar-pop .date-grid .specialz-date,
+.calendar-pop .date-grid .selected-date {
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.5);
+	box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.calendar-pop .date-grid .current-date {
+	color: #fff;
+	background: #f31;
+}
+.calendar-pop .date-grid .specialz-date {
+	color: #fff;
+	background: #2b7;
+}
+.calendar-pop .date-grid .selected-date {
+	color: #000;
+	background: #ffc30d;
+}
